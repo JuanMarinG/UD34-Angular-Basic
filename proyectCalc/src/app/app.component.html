@@ -1,0 +1,57 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<div class="main">
+  <div class="display">
+      <p id="history">
+          <i class="fa fa-history" aria-hidden="true"></i>{{input}}</p>
+      <h2 class="input-group-addon"></h2>
+  </div>
+  <div class="buttons">
+      <button class="btn btn-light border-secondary mx-1"(click)="AllClear()">C</button>
+      <button class="btn btn-light border-secondary mx-1"(click)="dividir()">/</button>
+      <button class="btn btn-light border-secondary mx-1"(click)="multiplicar()">*</button>
+  </div>
+  <div class="buttons">
+      <button class="btn btn-light border-secondary mx-1"(click)="numero('7')">7</button>
+      <button class="btn btn-light border-secondary mx-1"(click)="numero('8')">8</button>
+      <button class="btn btn-light border-secondary mx-1"(click)="numero('9')">9</button>
+      <button class="btn btn-light border-secondary mx-1"(click)="restar()">-</button>
+  </div>
+  <div class="buttons">
+      <button class="btn btn-light border-secondary mx-1"(click)="numero('4')">4</button>
+      <button class="btn btn-light border-secondary mx-1"(click)="numero('5')">5</button>
+      <button class="btn btn-light border-secondary mx-1"(click)="numero('6')">6</button>
+      <button class="btn btn-light border-secondary mx-1"(click)="sumar()">+</button>
+  </div>
+  <div class="buttons">
+      <button class="btn btn-light border-secondary mx-1"(click)="numero('1')">1</button>
+      <button class="btn btn-light border-secondary mx-1"(click)="numero('2')">2</button>
+      <button class="btn btn-light border-secondary mx-1"(click)="numero('3')">3</button>
+      <button class="btn btn-light border-secondary mx-1"(click)="numero('.')">.</button>
+  </div>
+  <div class="buttons">
+      <button class="btn btn-light border-secondary mx-1" (click)="numero('0')">0</button>
+      <button class="btn btn-light border-secondary mx-1" (click)="numero('00')">00</button>
+      <button class="btn btn-light border-secondary mx-1" (click)="resultado()">=</button>
+  </div>
+</div>
+<script src="script.js"></script>
+
+
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+
+<router-outlet></router-outlet>
